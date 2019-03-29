@@ -1,0 +1,16 @@
+student:
+  name: 张三
+  age: 29
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3358/hello?characterEncoding=UTF-8
+    username: hello
+    password: hello
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update #新增数据库连接必备的参数
